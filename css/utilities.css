@@ -5,12 +5,7 @@
 }
 
 /* content holders */
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 40px;
-}
+
 
 .flex {
     display: flex;
@@ -28,16 +23,29 @@
     height: 100%;
 }
 
-.grid-3 {
+.grid-4 {
     display: grid;
-    grid-template-columns: 1fr, 2fr;
-    gap: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
+
+/* .card {
+    border-top: var(--primary-color) solid 5px;
+}     */
+
+
+
+
   
 /* fonts */
+.sm-font {
+    font-family: 'Merriweather';
+    font-size: .9rem;
+}
 
 .md-font {
     font-family: Merriweather;
@@ -47,4 +55,8 @@
 .lg-font {
     font-family: Merriweather;
     font-size: 3rem;
+}
+
+.text-center {
+    text-align: center;
 }
