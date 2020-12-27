@@ -1,6 +1,10 @@
 
 :root {
-    --primary-color: rgb(85, 96, 199);
+    --beige: #F5EEE0;
+    --dark-beige: #D1B98F;
+    --azure: #E0F3F5;
+    --champagne-pink: #F4DECD;
+    --light-pink: #F5EBE6;
     
 }
 
@@ -16,11 +20,12 @@
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* grid-template-rows: repeat(2, 1fr); */
     gap: 20px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100%;
 }
 

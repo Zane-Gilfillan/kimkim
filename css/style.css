@@ -5,7 +5,11 @@
 
 
 body {
-    background-color: beige;
+    background-color: #F5EEE0;   
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .main-header h1 {
@@ -13,6 +17,10 @@ body {
     font-size: 7rem;
     text-align: center;
     
+}
+
+.nav-wrapper {
+    background-color: #F4DECD;
 }
 
 .nav-wrapper a {
@@ -25,8 +33,7 @@ body {
 }
 
 .left-header {
-    font-family: Merriweather;
-    
+    font-family: Merriweather; 
 }
 
 .left-header p {
@@ -48,39 +55,17 @@ body {
 /* card styles */
 
 
-.card-one {
-    border-top: var(--primary-color) 4px solid;
-}
 
-.card-two{
-    border-top: var(--primary-color) 4px solid;
-}
 
-.card-three {
-    border-top: var(--primary-color) 4px solid;
-}
 
-.card-four {
-    border-top: var(--primary-color) 4px solid;
-}
 
-.card-five {
-    border-top: var(--primary-color) 4px solid;
-}
-
-.card-six {
-    border-top: var(--primary-color) 4px solid;
-    
-}
-
-.card-six img {
-    height: 100%;
-    width: 100%;
-}
 
 
 .shop-header {
     margin-bottom: 150px;
 }
+
+
+
 
 
