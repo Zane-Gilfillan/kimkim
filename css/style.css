@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #000
+}
 
 body {
     background-color: #F5EEE0;   
@@ -54,19 +58,13 @@ body {
    
 }
 
-/* card styles */
-/* .card-image img {
-    width: 404.16px;
-    height: 505.19px;
-} */
-
-
-
-
-
-
 .shop-header {
     margin-bottom: 150px;
+}
+
+/* bowl one */
+.bowl-one-header {
+    text-align: center;
 }
 
 

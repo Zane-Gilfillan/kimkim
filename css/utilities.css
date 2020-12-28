@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100%;
 }
 
@@ -29,12 +30,10 @@
     height: 100%;
 }
 
-/* .card {
-    border-top: var(--primary-color) solid 5px;
-}     */
-
-
-
+/* headers */
+.item-header {
+    margin-top: ;
+}
 
   
 /* fonts */
@@ -55,4 +54,16 @@
 
 .text-center {
     text-align: center;
+}
+
+
+/* buttons */
+.btn-add-to-cart {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--dark-beige);
+}
+
+.btn-add-to-cart:hover {
+    background-color: var(--champagne-pink);
 }
