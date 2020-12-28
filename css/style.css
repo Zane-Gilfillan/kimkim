@@ -8,6 +8,8 @@ body {
     background-color: #F5EEE0;   
 }
 
+
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -53,8 +55,10 @@ body {
 }
 
 /* card styles */
-
-
+/* .card-image img {
+    width: 404.16px;
+    height: 505.19px;
+} */
 
 
 

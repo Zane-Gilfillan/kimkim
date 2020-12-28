@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
+//card switcher
+function hover(element) {
+  element.setAttribute('src', element.getAttribute('data-hover'));
+}
+function unhover(element) {
+  element.setAttribute('src', element.getAttribute('data-unhover'));
+}
 
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.materialboxed');
-   var instances = M.Materialbox.init(elems, options);
-});
+
